@@ -1,5 +1,7 @@
 <img src="https://devicon-website.vercel.app/api/github/original.svg"></img>
+
 Projeto inicial
+
 🎉:Biblioteca UNIFG-PE
 integrante 1 - Ayrton - responsável por garantir que o ambiente esteja pronto para a conexão com o banco de dados: garantir que o sistema pudesse 'conversar' com o SQLite. Isso envolveu carregar o driver JDBC, que é a ponte entre o Java e o banco de dados. Foi adcionado uma verificação para o caso de o driver não ser encontrado, o que é crucial para evitar falhas mais adiante e dar um feedback claro ao usuário ou desenvolvedor.
 
