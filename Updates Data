@@ -1,0 +1,12 @@
+/**
+     * Part 3: Updates data in the 'livros' table.
+     * @param conn The database connection.
+     * @throws SQLException If a database access error occurs.
+     */
+    private static void updateData(Connection conn) throws SQLException {
+        try (Statement stmt = conn.createStatement()) {
+            String updateSQL = "UPDATE livros SET ano = 1900 WHERE titulo = 'Dom Casmurro';";
+            int rowsAffected = stmt.executeUpdate(updateSQL);
+            System.out.println(rowsAffected + " registro(s) atualizado(s).");
+        }
+    }
