@@ -20,5 +20,8 @@ Projeto inicial
 
 🗑️:Intregante 8 - Juan - Responsável por implementar a funcionalidade para remover registros da tabela: responsável pela operação de exclusão. O método deleteData remove registros com base em um critério específico, neste caso, o autor 'Clarice Lispector'. É vital que essa operação seja precisa para não apagar dados indevidamente. O retorno do número de linhas afetadas também é útil para confirmar a exclusão.
 
+
+
+
 👨‍👩‍👦‍👦
 Esta divisão demonstra como um projeto pode ser modularizado e como diferentes membros de uma equipe podem contribuir para componentes específicos de uma aplicação. Cada parte é funcional por si só, mas se integra para formar o programa completo.
