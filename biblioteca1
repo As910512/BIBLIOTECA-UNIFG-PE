@@ -11,3 +11,4 @@ retrieveData(conn);
 // Retrieve data again after deletion to show the final state 
 System.out.println("\n---Registros após a exclusão final---);
 retrieveData(conn); // Re-use the retrieveData method
+}
